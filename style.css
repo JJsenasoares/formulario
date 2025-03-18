@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+form {
+    padding: 250px;
+
+}
+
+
+h1 {
+
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+#input1 {
+    width: 400px;
+    height: 36px;
+    border-radius: 6px;
+    gap: 10px;
+    border-width: 0.5px;
+    padding-top: 6px;
+    padding-right: 10px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+
+
+}
+
+.seunome {
+    display: flex;
+   
+}
+
+#input2 {
+    width: 400px;
+    height: 36px;
+    border-radius: 6px;
+    gap: 10px;
+    border-width: 0.5px;
+    padding-top: 6px;
+    padding-right: 10px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+   
+
+}.seusobrenome {
+    display: flex;
+    padding-right: 50px;
+
+}
+
+#input3 {
+    width: 400px;
+    height: 36px;
+    border-radius: 6px;
+    gap: 10px;
+    border-width: 0.5px;
+    padding-top: 6px;
+    padding-right: 10px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+   
+}
