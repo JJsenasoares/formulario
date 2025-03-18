@@ -4,112 +4,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
+    <title>Formulario Cliente</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <form>
-        <fieldset>
-
-        <h1>Cadastro Cliente</h1>
-
-        <div class="seunome">
-            <label for="">NOME</label>
-            <br>
-            <input type="text" placeholder="Digite seu primerio nome" id="input1">
-
-            <div class=" seusobrenome">
-                <label for="">SOBRENOME</label>
-                
-                <input type="text" placeholder="Digite seu sobrenome" id="input2">
-                
-
-                <div class="seuemail">
-                    <label for="">E-mail</label>
-                    <br>
-                    <input type="text" placeholder="Digite seu E-mail" id="input3">
-
-                    <div class="seunascimento">
-                        <label for="">Data Nascimento</label>
-                        <br>
-                        <input type="datetime-local" id="input4">
-
-                        <div class="seucpf">
-                            <label for="">CPF</label>
-                            <br>
-                            <input type="text" placeholder="Ex: 000.000.000-0" id="input4">
-
-                            <div class="seucep">
-                                <label for="">CEP</label>
-                                <br>
-                                <input type="text" placeholder="Digite seu CEP" id="input5">
-
-                                <div class="seucomplemento">
-                                    <label for="">Complemento</label>
-                                    <br>
-                                    <input type="text" placeholder="Ex: apartamento 3" id="input6">
-
-                                    <div class="suacidade">
-                                        <label for="">Cidade</label>
-                                        <br>
-                                        <input type="text" placeholder="Nome da Cidade" id="input7">
-
-                                        <div class="seubairro">
-                                            <label for="">Bairro</label>
-                                            <br>
-                                            <input type="text" placeholder="Nome do Bairro" id="input8">
-
-                                            <div class="suarua">
-                                                <label for="">Rua</label>
-                                                <br>
-                                                <input type="text" placeholder="Nome do Bairro" id="input9">
-
-                                                <div class="seunumero">
-                                                    <label for="">Numero da residência</label>
-                                                    <br>
-                                                    <input type="number" placeholder="N:" id="input10">
-
-                                                    <div class="seutrabalho">
-                                                        <label for="">Trabalha?</label>
-                                                        <br>
-                                                        <input type="radio" id="input11">
-                                                        <br>
-                                                        <input type="radio" id="input12">
-
-                                                        <div class="crieumasenha">
-                                                            <label for="">Criar Senha</label>
-                                                            <br>
-                                                            <input type="password" placeholder="Digite sua senha"
-                                                                id="input13">
-
-                                                            <div class="checksenha">
-                                                                <label for="">Confirmar Senha</label>
-                                                                <br>
-                                                                <input type="password" id="input14">
-
-                                                                <div class="botao">
-                                                                    <input type="button" value="Enviar" id="input15">
-
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
+    <fieldset>
+        <form>
+            <h1>Cadastro Cliente</h1>
+            <div class="input1">
+                <label for="">Nome</label>
+                <input type="text"placeholder="Digite seu primeiro nome" id="seunome">
+                <label for="">Sobrenome</label>
+                <input type="text" placeholder="Digite seu Sobrenome" id="seusobrenome">
             </div>
-        </div>
-    </form>
+            </div>
+            
+            <div class="input2">
+                <label for="">E-mail</label>
+                <input type="text" placeholder="Digite seu E-mail" id="seuemail">
+            </div>
+            <div class="input3">
+                <label for="">Data Nascimento</label>
+                <input type="text" placeholder="dd/mm/yyyy" id="suadata">
+                <label for="">CPF</label>
+                <input type="text" placeholder="Ex: 000.000.000-0" id="seucpf">
+            </div>
+            
+            </div>
+            <div class="input6">
+                <label for="">CEP</label>
+                <input type="text" placeholder="Digite seu CEP" id="seucep">
+                <label for="">Complemento</label>
+                <input type="text" placeholder="Ex: apartamento 3" id="seucomplemento">
+            </div>
+           
+            </div>
+            <div class="input8">
+                <label for="">Cidade</label>
+                <input type="text" placeholder="Nome da Cidade" id="">
+            </div>
+            <div class="input9">
+                <label for="">Bairro</label>
+                <input type="text" placeholder="Nome do Bairro" id="">
+            </div>
+            <div class="input10">
+                <label for="">Rua</label>
+                <input type="text" placeholder="Nome da Rua" id="">
+            </div>
+            <div class="input11">
+                <label for="">Numero da residência</label>
+                <input type="text" placeholder="N:" id="">
+            </div>
+            <div class="input12">
+                <label for="">Trabalha?</label>
+                <input type="radio" placeholder="">
+                <input type="radio" placeholder="">
+            </div>
+            <div class="input13">
+                <label for="">Criar Senha</label>
+                <input type="text" placeholder="Digite sua senha" id="">
+            </div>
+            <div class="input14">
+                <label for="">Confirmar Senha</label>
+                <input type="text" placeholder="Digite novamente sua senha" id="">
+            </div>
+            
+             <button>Enviar</button>
+                
+            </div>
+        </form>
     </fieldset>
 </body>
 
-</html>
+</html>                        
